@@ -1,6 +1,7 @@
 package com.ecommerce.addtocart;
 
 import java.io.FileInputStream;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
@@ -37,7 +38,7 @@ public class CartTest extends BaseClass
 	public void AddingProductToTheCart()throws InterruptedException, IOException 
 	{
 		String expectedResult1="Ubon Pb X90";
-	
+	//updated code
 		//read the commondata from property file
 		//String mail = pFileUtility.getDataFromPropertyFile(PropertyFileKeys.MAIL.convertToString());
 		//String password = pFileUtility.getDataFromPropertyFile(PropertyFileKeys.PASSWORD.convertToString());
