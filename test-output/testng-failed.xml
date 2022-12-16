@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" parallel="tests" name="Test2(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ecommerce.merchantlogin1.MerchantAddingProductTest">
+      <class name="com.ecommerce.adminlogin.EditMerchantDetailsTest">
         <methods>
+          <include name="editmercnt"/>
           <include name="methodSetUP"/>
-          <include name="address"/>
           <include name="methodTearDown"/>
           <include name="classSetUp"/>
         </methods>
-      </class> <!-- com.ecommerce.merchantlogin1.MerchantAddingProductTest -->
+      </class> <!-- com.ecommerce.adminlogin.EditMerchantDetailsTest -->
     </classes>
-  </test> <!-- Test2(failed) -->
-  <test thread-count="5" parallel="tests" name="Test(failed)">
-    <classes>
-      <class name="com.ecommerce.myaddress.AddressModuleTest">
-        <methods>
-          <include name="methodSetUP"/>
-          <include name="UserAddingAddress"/>
-          <include name="methodTearDown"/>
-          <include name="classSetUp"/>
-        </methods>
-      </class> <!-- com.ecommerce.myaddress.AddressModuleTest -->
-    </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

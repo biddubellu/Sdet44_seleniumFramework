@@ -11,6 +11,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver.Timeouts;
@@ -173,10 +174,13 @@ public class WebDriverUtelity
 	 * @param Text
 	 */
 
-	public void scrollByAction(WebElement element,String Text)
+	public void scrolltillend(WebElement element)
 	{
 		jse=(JavascriptExecutor) driver;
-		jse.executeScript("document.getElement().value='Text'");
+		Point loc = element.getLocation();
+		int x=loc.getX();
+		int y=loc.getY();
+		jse.executeScript("window.scrollBy("+x+","+y+")");
 	}
 
 	/**

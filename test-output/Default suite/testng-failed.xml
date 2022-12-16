@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.trendeeverse.genericUtility.sampleclass">
+      <class name="com.ecommerce.adminlogin.EditMerchantDetailsTest">
         <methods>
+          <include name="editmercnt"/>
           <include name="methodSetUP"/>
-          <include name="test"/>
           <include name="methodTearDown"/>
           <include name="classSetUp"/>
         </methods>
-      </class> <!-- com.trendeeverse.genericUtility.sampleclass -->
+      </class> <!-- com.ecommerce.adminlogin.EditMerchantDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

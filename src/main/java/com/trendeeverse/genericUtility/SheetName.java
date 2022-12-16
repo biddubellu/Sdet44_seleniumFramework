@@ -7,7 +7,7 @@ package com.trendeeverse.genericUtility;
  */
 public enum SheetName 
 {
-     MERCHANT("merchant"),ADDRESS("address");
+     MERCHANT("merchant"),ADDRESS("address"),LOGIN("Login");
 	
 	private String shtName;
 	//setter (constructor)
