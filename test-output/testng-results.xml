@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-16T13:19:08 IST" name="Default suite" finished-at="2022-12-16T13:19:53 IST" duration-ms="45142">
+  <suite started-at="2022-12-16T17:10:06 IST" name="Default suite" finished-at="2022-12-16T17:10:25 IST" duration-ms="18740">
     <groups>
     </groups>
-    <test started-at="2022-12-16T13:19:08 IST" name="Default test" finished-at="2022-12-16T13:19:53 IST" duration-ms="45142">
+    <test started-at="2022-12-16T17:10:06 IST" name="Default test" finished-at="2022-12-16T17:10:25 IST" duration-ms="18740">
       <class name="com.ecommerce.adminlogin.EditMerchantDetailsTest">
-        <test-method is-config="true" signature="classSetUp()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@3f6b0be5]" started-at="2022-12-16T13:19:08 IST" name="classSetUp" finished-at="2022-12-16T13:19:48 IST" duration-ms="39393" status="PASS">
+        <test-method is-config="true" signature="classSetUp()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@169e6180]" started-at="2022-12-16T17:10:06 IST" name="classSetUp" finished-at="2022-12-16T17:10:20 IST" duration-ms="13718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetUp -->
-        <test-method is-config="true" signature="methodSetUP()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@3f6b0be5]" started-at="2022-12-16T13:19:48 IST" name="methodSetUP" finished-at="2022-12-16T13:19:49 IST" duration-ms="1268" status="PASS">
+        <test-method is-config="true" signature="methodSetUP()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@169e6180]" started-at="2022-12-16T17:10:20 IST" name="methodSetUP" finished-at="2022-12-16T17:10:20 IST" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetUP -->
-        <test-method signature="editmercnt()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@3f6b0be5]" started-at="2022-12-16T13:19:49 IST" name="editmercnt" finished-at="2022-12-16T13:19:53 IST" duration-ms="3928" status="PASS">
+        <test-method signature="editmercnt()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@169e6180]" started-at="2022-12-16T17:10:20 IST" name="editmercnt" finished-at="2022-12-16T17:10:24 IST" duration-ms="3927" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editmercnt -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@3f6b0be5]" started-at="2022-12-16T13:19:53 IST" name="methodTearDown" finished-at="2022-12-16T13:19:53 IST" duration-ms="487" status="PASS">
+        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:com.ecommerce.adminlogin.EditMerchantDetailsTest@169e6180]" started-at="2022-12-16T17:10:24 IST" name="methodTearDown" finished-at="2022-12-16T17:10:25 IST" duration-ms="368" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
