@@ -40,6 +40,7 @@ public class WebDriverUtelity
 	private WebDriverWait wait;
 	private Select sel;
 	private JavascriptExecutor jse;
+	private JavascriptExecutor jsc;
 	/**
 	 * This method is used to 
 	 * launch browser based in browser key
@@ -235,4 +236,10 @@ public void CustomWait(int duration,WebElement element,long pollingtime )	{
 public void closeBrowser(ExcelUtility excelUtility,PFileUtility pFileUtility) {
 	driver.quit();
 }
+public void scroll(WebElement element)
+{
+	 jsc= (JavascriptExecutor)driver;
+	 jsc.executeScript("arguments[0].scrollIntoView()", element);
+	 
+	}
 }

@@ -30,8 +30,9 @@ public class EditMerchantDetailsTest extends BaseClass{
 		app.checkifthecontentisdisplayed();
 		app.clickonedit();
 		app.lastname(ele);
-		 WebElement update = app.update();
-		wu.scrolltillend(update);
+		app.scrolltillUpdate(wu);
+//		 WebElement update = app.update();
+//		wu.scrolltillend(update);
 		app.update();
 		
 	}

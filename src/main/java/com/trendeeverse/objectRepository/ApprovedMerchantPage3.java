@@ -11,12 +11,15 @@ import org.testng.annotations.Factory;
 import com.trendeeverse.genericUtility.WebDriverUtelity;
 
 public class ApprovedMerchantPage3 {
-	WebDriverUtelity wu=new WebDriverUtelity();
+	//WebDriverUtelity wu=new WebDriverUtelity();
 	
 	@FindBy(xpath = "//div[text()='VaaniBazaar']") private WebElement elememt;
 	@FindBy(xpath = "//a[@href=\"/edit-merchant-profile/1383\"]") private WebElement edit;
 	@FindBy(xpath = "//input[@placeholder='Enter Your Last Name']") private WebElement lastnametextfiled;
-	@FindBy(xpath = "//span[text()='Update Merchant Details']")private WebElement update;
+	@FindBy(xpath = "//span[text()='Update Merchant Details']")
+	private WebElement update;
+	
+	
 	public ApprovedMerchantPage3(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 		
@@ -35,6 +38,12 @@ public class ApprovedMerchantPage3 {
 		lastnametextfiled.sendKeys(ele1);
 		
 	}
+	public void scrolltillUpdate(WebDriverUtelity wu)
+	{
+		wu.scroll(update);
+		
+	}
+	
 	public WebElement update()
 	{
 		//
